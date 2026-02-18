@@ -1,4 +1,4 @@
-baseURL = "https://subindevs.github.io/"
+baseURL = "https://subin.dev/"
 title = "subindev d"
 theme = "hugo-coder"
 languageCode = "en"
