@@ -6,7 +6,7 @@ tags = ["vscode", "wsl", "linux", "tooling"]
 description = "A script to share VS Code Server across multiple WSL users"
 +++
 
-If you've ever set up VS Code with WSL (Windows Subsystem for Linux) and needed use it from other users in the same WSL instance, you'll know how tedious it can be.
+If you've ever set up VS Code with WSL (Windows Subsystem for Linux) and needed to use it from other users in the same WSL instance, you'll know how tedious it can be.
 There is no easy way to do it , that why I created `share_vscode.sh`.
 
 ---
