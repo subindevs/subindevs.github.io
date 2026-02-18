@@ -1,0 +1,58 @@
+baseURL = "https://subindevs.github.io/"
+title = "subindev d"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+canonifyURLs = true
+
+[pagination]
+pagerSize = 20
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "Subindev D"
+info = "Research software engineer"
+description = "Subindev's personal website"
+keywords = "blog,developer,personal"
+avatarURL = "https://avatars2.githubusercontent.com/u/36504048"
+dateFormat = "January 2, 2006"
+colorScheme = "auto"
+hideColorSchemeToggle = false
+hidecredits = true
+hidecopyright = true
+math = true
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/subindevs/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 3
+url = "https://www.linkedin.com/in/subindev"
+
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
